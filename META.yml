@@ -18,4 +18,4 @@ requires:
 resources:
   bugtracker: https://github.com/bluefeet/MooseX-BuildArgs/issues
   repository: git://github.com/bluefeet/MooseX-BuildArgs.git
-version: 0.01
+version: 0.02
