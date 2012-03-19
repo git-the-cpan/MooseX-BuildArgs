@@ -1,8 +1,10 @@
 package MooseX::BuildArgs;
 {
-  $MooseX::BuildArgs::VERSION = '0.02';
+  $MooseX::BuildArgs::VERSION = '0.03';
 }
-use Moose::Role;
+use Moose ();
+use Moose::Exporter;
+
 
 =head1 NAME
 
@@ -26,7 +28,7 @@ constructor are saved in the build_args attribute:
 
 =head1 DESCRIPTION
 
-Sometimes it is very useful to have access the the contructor arguments before builders,
+Sometimes it is very useful to have access to the contructor arguments before builders,
 defaults, and coercion take affect.  This module provides a build_args hashref attribute
 for all instances of the consuming class.  The build_args attribute contains all arguments
 that were passed to the constructor.
@@ -61,7 +63,7 @@ sub init_meta {
 {
     package MooseX::BuildArgs::Role;
 {
-  $MooseX::BuildArgs::Role::VERSION = '0.02';
+  $MooseX::BuildArgs::Role::VERSION = '0.03';
 }
     use Moose::Role;
 

@@ -14,8 +14,8 @@ meta-spec:
   version: 1.4
 name: MooseX-BuildArgs
 requires:
-  Moose: 2.0000
+  Moose: 1.23
 resources:
   bugtracker: https://github.com/bluefeet/MooseX-BuildArgs/issues
   repository: git://github.com/bluefeet/MooseX-BuildArgs.git
-version: 0.02
+version: 0.03
